@@ -14,7 +14,7 @@ Related CNAFS project URL: <https://github.com/ahyuan/CNAFS>
 ## Repository Contents
 
 - `CNAFS/` - MATLAB implementation, usage notes, paper information, experimental summary, and BibTeX for CNAFS.
-- `MGAGR/` - MATLAB implementation, usage notes, paper information, experimental summary, result-table screenshot, and BibTeX for MGAGR.
+- `MGAGR/` - MATLAB implementation, usage notes, paper information, experimental summary, cropped result-table screenshot, and BibTeX for MGAGR.
 - `LICENSE` - repository license.
 
 The repository contains core algorithm implementations only. Benchmark datasets, preprocessing scripts, parameter-search scripts, and evaluation scripts are not included.

@@ -16,7 +16,7 @@ MGAGR introduces a multi-group adaptive graph representation for unsupervised fe
 ## Repository Contents
 
 - `MGAGR.m` - core MATLAB function for MGAGR optimization and feature ranking.
-- `docs/mgagr-results-tables.png` - screenshot of the MGAGR paper's main ACC/NMI result tables.
+- `docs/mgagr-results-tables.png` - cropped screenshot of the MGAGR paper's main ACC/NMI result tables.
 - `README.md` - project description, usage notes, results summary, and citation.
 
 ## Requirements
@@ -72,7 +72,7 @@ X_selected = X(:, selected_feature_index);
 
 The MGAGR paper evaluates selected features by running K-means and reports clustering accuracy (ACC) and normalized mutual information (NMI) on eight benchmark datasets. The following values are the MGAGR rows from Tables 1 and 2 of the TKDE paper. Larger values are better.
 
-![MGAGR ACC and NMI result tables from the TKDE paper](docs/mgagr-results-tables.png)
+![MGAGR cropped ACC and NMI result tables from the TKDE paper](docs/mgagr-results-tables.png)
 
 | Dataset | ACC (% +/- std) | NMI (% +/- std) |
 | --- | ---: | ---: |
